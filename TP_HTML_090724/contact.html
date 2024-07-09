@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <img src="https://loremflickr.com/800/200/heavy_metal" alt="Du lourd du sale">
+
+    <h1 id="title">Louder is better</h1>
+
+    <nav>
+        <ul>
+            <li> <a href="https://www.leseternels.net">Accueil</a> </li>
+            <li><a href="#first">Blog</a> </li>
+            <li><a href="">Gallerie</a> </li>
+            <li><a href="contact.html">Contact</a> </li>
+        </ul>
+    </nav>
+
+</header>
+
+<form  method="post" action="grosson.php">
+    <fieldset>
+        <legend>Viens headbanger avec nous!</legend>
+        <div>
+            <input type="text" required id="name"  placeholder="Fais péter ton blaze" minlength="2" maxlength="20">
+            <label for="name">Nom</label>
+        </div>
+
+        <div>
+            <input class="req" type="email" required id="mail" placeholder="Il n'ya que mail qui maille">
+            <label for="mail">Mail</label>
+        </div>
+
+        <div>
+            <textarea name="Commentaire" id="commentaire" rows="10" cols="70"
+                      placeholder="une petite bafouille en plus?"></textarea>
+            <label for="commentaire">Commentaire</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="copie" checked>
+            <label for="copie">On t'envoie une copie?</label>
+        </div>
+
+        <div>
+            <input type="submit" value="C'est OK">
+            <input type="reset" value="En fait NON">
+        </div>
+    </fieldset>
+</form>
+
+<footer>
+    <ul>
+        <li><a href="https://www.decibels.net">Mentions légales</a> </li>
+        <li><a href="https://www.groland.li">Partenaires</a></li>
+        <li><a href="https://www.legrascestlavie.fr">Plan du site</a></li>
+    </ul>
+</footer>
+
+</body>
+</html>

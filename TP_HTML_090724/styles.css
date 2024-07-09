@@ -1,0 +1,48 @@
+body{
+   background : radial-gradient(circle at top, #CCDAE0, #EDF2F4)
+}
+
+header{
+    text-align: center;
+}
+
+h1{
+    color: #EF233C;
+    font-size: 3em;
+    font-family: Impact, sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+h3{
+    color: #2B2D42;
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: underline dotted;
+}
+
+article{
+    border: solid black 1px;
+}
+
+img{
+    align-content: center;
+    border: solid 2px #8D99AE;
+}
+
+footer{
+    text-align: end;
+}
+ul{
+    list-style: none;
+}
+
+a{
+    color: #D90429;
+}
+
+a:visited{
+    color: grey;
+}
+
+
